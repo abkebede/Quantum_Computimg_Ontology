@@ -1,0 +1,21 @@
+title: "VQE Introduction"
+file: "07_algorithms_intro/vqe_intro.ipynb"
+level: "advanced"
+code_type: "notebook"
+source_type: "original teaching example"
+source_url: ""
+license: "MIT"
+status: "runs"
+concepts: ["Hamiltonian", "expectation value", "ansatz", "optimization"]
+gates: ["RY", "CX"]
+qiskit_objects: ["QuantumCircuit", "SparsePauliOp", "StatevectorEstimator"]
+algorithm_family: ["VQE"]
+mathematics: ["eigenvalue problem", "variational minimization", "linear algebra"]
+application_area: ["chemistry", "materials physics", "mathematical physics"]
+prerequisites: ["Estimator", "SparsePauliOp", "parameterized circuits"]
+expected_output: "A numerical expectation value or energy-like value."
+safe_modifications: ["change ansatz parameters", "change observable coefficients"]
+unsafe_modifications: ["use Pauli strings with the wrong number of qubits"]
+line_by_line_questions: ["What is the Hamiltonian?", "What does the optimizer change?"]
+student_questions: ["Why is VQE useful for chemistry and materials problems?"]
+notes: "Use after basic circuits, primitives, and parameterized ansatz examples."
