@@ -1,0 +1,10 @@
+qiskit
+qiskit-aer
+qiskit-ibm-runtime
+qiskit-algorithms
+numpy
+scipy
+matplotlib
+pylatexenc
+notebook
+ipykernel
