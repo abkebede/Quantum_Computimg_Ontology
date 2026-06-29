@@ -1,0 +1,13 @@
+title,file,level,code_type,concepts,algorithm_family,application_area,status
+Environment Check,00_environment_test/environment_check.py,beginner,python,environment; qiskit import,setup,training infrastructure,runs
+One-Qubit X Gate,01_basic_circuits/one_qubit_x_gate.py,beginner,python,qubit; X gate; measurement,circuit basics,quantum measurement,runs
+Hadamard Superposition,01_basic_circuits/hadamard_superposition.py,beginner,python,superposition; measurement; sampling,circuit basics,random sampling,runs
+Bell State Sampler,02_bell_states/bell_state_sampler.py,beginner,python,entanglement; measurement counts,Bell states,quantum correlations,runs
+Sampler Examples,03_primitives/sampler_examples.py,intermediate,python,primitive; sampling,primitives,probability distribution,runs
+Estimator ZZ Expectation,03_primitives/estimator_zz_expectation.py,intermediate,python,observable; expectation value; Hamiltonian,primitives,physics observables,runs
+RealAmplitudes Ansatz,04_parameterized_circuits/real_amplitudes_ansatz.py,intermediate,python,parameterized circuit; ansatz,variational circuits,optimization; VQE preparation,runs
+IBM Hardware Bell Run,05_ibm_hardware/run_bell_on_ibm_hardware.py,intermediate,python,hardware backend; noise; transpilation,runtime hardware,hardware access,template
+Cuccaro Ripple-Carry Adder,06_openqasm_examples/cuccaro_ripple_carry_adder.qasm,advanced,qasm,reversible arithmetic; CCX,OpenQASM reversible computation,binary arithmetic,source
+Grover Introduction,07_algorithms_intro/grover_intro.py,advanced,python,oracle; amplitude amplification,Grover search,search problems,runs
+QFT Introduction,07_algorithms_intro/qft_intro.py,advanced,python,Fourier transform; phase,QFT,Fourier analysis,runs
+VQE Introduction,07_algorithms_intro/vqe_intro.ipynb,advanced,notebook,Hamiltonian; ansatz; optimizer,VQE,chemistry; eigenvalue problem,runs
