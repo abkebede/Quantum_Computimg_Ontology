@@ -1,0 +1,26 @@
+name: Add new code example
+description: Propose or submit a new quantum computing code example
+title: "Add code: "
+labels: ["code-example"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Code title
+  - type: dropdown
+    id: level
+    attributes:
+      label: Level
+      options: [Beginner, Intermediate, Advanced]
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose and application
+  - type: textarea
+    id: source
+    attributes:
+      label: Source and license
+  - type: textarea
+    id: metadata
+    attributes:
+      label: Metadata summary

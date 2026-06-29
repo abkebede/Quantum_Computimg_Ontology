@@ -1,0 +1,13 @@
+name: Improve metadata
+description: Suggest better ontology tags or metadata for an example
+title: "Improve metadata: "
+labels: ["metadata", "ontology"]
+body:
+  - type: input
+    id: file
+    attributes:
+      label: File path
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested metadata improvement

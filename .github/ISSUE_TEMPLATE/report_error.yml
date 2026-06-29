@@ -1,0 +1,17 @@
+name: Report error
+description: Report a code, documentation, or ontology error
+title: "Error report: "
+labels: ["bug", "documentation"]
+body:
+  - type: input
+    id: file
+    attributes:
+      label: File path
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix
