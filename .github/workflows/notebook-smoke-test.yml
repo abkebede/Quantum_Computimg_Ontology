@@ -1,0 +1,39 @@
+name: Notebook and Python Smoke Test
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "**.py"
+      - "**.ipynb"
+      - "requirements.txt"
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install nbconvert nbformat ipykernel
+
+      - name: Run basic Python examples only
+        run: |
+          python 00_environment_test/environment_check.py
+          python 01_basic_circuits/one_qubit_x_gate.py
+          python 01_basic_circuits/hadamard_superposition.py
+          python 01_basic_circuits/measurement_counts.py
+          python 02_bell_states/bell_state_sampler.py
+          python 03_primitives/statevector_sampler_current_version.py
+          python 03_primitives/estimator_zz_expectation.py
+          python 04_parameterized_circuits/real_amplitudes_ansatz.py
+          python 07_algorithms_intro/qft_intro.py
