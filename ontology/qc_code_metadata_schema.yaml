@@ -1,0 +1,22 @@
+# Metadata schema for one code example
+title: ""
+file: ""
+level: "beginner | intermediate | advanced"
+code_type: "python | notebook | qasm | markdown"
+source_type: "original | adapted | external"
+source_url: ""
+license: ""
+status: "runs | needs_update | explanation_only"
+concepts: []
+gates: []
+qiskit_objects: []
+algorithm_family: []
+mathematics: []
+application_area: []
+prerequisites: []
+expected_output: ""
+safe_modifications: []
+unsafe_modifications: []
+line_by_line_questions: []
+student_questions: []
+notes: ""
