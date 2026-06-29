@@ -1,0 +1,21 @@
+title: "Bell State Sampler"
+file: "02_bell_states/bell_state_sampler.py"
+level: "beginner"
+code_type: "python"
+source_type: "original"
+source_url: ""
+license: "MIT"
+status: "runs"
+concepts: ["entanglement", "measurement", "correlation"]
+gates: ["H", "CX", "measure"]
+qiskit_objects: ["QuantumCircuit", "StatevectorSampler"]
+algorithm_family: ["Bell states"]
+mathematics: ["binary correlation", "probability"]
+application_area: ["quantum communication foundations", "quantum correlation demonstrations"]
+prerequisites: ["Hadamard gate", "controlled-NOT gate", "measurement"]
+expected_output: "Mostly 00 and 11 outcomes on an ideal simulator."
+safe_modifications: ["change shots", "remove CX to compare entangled and unentangled outputs"]
+unsafe_modifications: ["change qubit indices without changing circuit size"]
+line_by_line_questions: ["Which gate creates superposition?", "Which gate creates entanglement?"]
+student_questions: ["Why do 01 and 10 not appear ideally?"]
+notes: "This is a core beginner example for entanglement."
