@@ -1,0 +1,13 @@
+{
+  "name": "QC Code Study Library",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "python -m pip install --upgrade pip && pip install -r requirements.txt && python -m ipykernel install --user --name qgss_env --display-name 'Python (qgss_env)'",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  }
+}
