@@ -1,0 +1,2 @@
+title,file,level,concepts,algorithm_family,application_area,metadata
+One-Qubit X Gate and Measurement Counts,01_basic_circuits/one_qubit_x_gate.py; 01_basic_circuits/measurement_counts.py,beginner,qubit; measurement; shots; counts; X gate,circuit basics; measurement basics,quantum measurement; sampling foundation; STEM probability education,ontology/examples/one_qubit_measurement_counts_metadata.yaml
