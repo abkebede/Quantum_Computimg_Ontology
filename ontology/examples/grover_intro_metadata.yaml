@@ -1,0 +1,55 @@
+title: Grover Intro
+author: Abebe Kebede
+file: 07_algorithms_intro/grover_intro.py
+level: intermediate
+code_type: python_qiskit
+source_type: original_teaching_example
+source_url: ''
+license: repository_license
+concepts:
+  - superposition
+  - oracle
+  - marked_state
+  - amplitude_amplification
+  - measurement_counts
+gates:
+  - H
+  - X
+  - CX
+  - measure
+qiskit_objects:
+  - QuantumCircuit
+  - StatevectorSampler
+algorithm_family:
+  - Grover_search
+  - amplitude_amplification
+mathematics:
+  - probability_amplitudes
+  - binary_states
+  - search_space
+application_area:
+  - search
+  - optimization
+  - constraint_satisfaction
+  - quantum_algorithm_foundations
+prerequisites:
+  - qubits
+  - Hadamard_gate
+  - measurement_counts
+  - Bell_state_basics
+expected_output: "Target state 11 dominates; tested output was {'11': 1000}."
+safe_modifications:
+  - change_number_of_shots
+  - add_comments_to_circuit_blocks
+  - print_circuit_at_intermediate_steps
+unsafe_modifications:
+  - changing_oracle_without_reanalyzing_target_state
+  - changing_diffusion_operator_without_understanding_amplitude_amplification
+  - changing_qubit_order_without_updating_interpretation
+student_questions:
+  - What is the target state?
+  - Which part of the circuit marks the target?
+  - Which part amplifies the target state?
+  - Why does the output show mostly 11?
+hardware_readiness: simulator_first
+status: tested_passed
