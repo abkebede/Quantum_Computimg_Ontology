@@ -1,0 +1,38 @@
+record_type: project_control_metadata
+title: Advanced Validation and Contributor Workflow
+project: qc-code-study-library
+level: advanced
+purpose: >
+  Track validation, testing, classification, and contributor workflow for advanced
+  quantum-computing code families.
+files_added:
+  - docs/advanced_code_status_table.md
+  - docs/advanced_code_testing_protocol.md
+  - docs/repository_validation_plan.md
+  - docs/contributor_issue_workflow.md
+  - README_ADVANCED_VALIDATION_UPDATE.md
+status_categories:
+  - working_example
+  - working_with_warning
+  - concept_template
+  - source_review_only
+  - needs_api_review
+  - requires_hardware_account
+  - needs_documentation
+advanced_topics_tracked:
+  - QAOA
+  - quantum_chemistry
+  - materials_hamiltonians
+  - spin_chains
+  - hubbard_model
+  - phase_estimation
+  - amplitude_estimation
+  - quantum_machine_learning_kernels
+  - error_mitigation
+  - error_correction
+  - hardware_noise
+  - openqasm_arithmetic
+  - hhl_linear_systems
+  - shor_period_finding_concept
+  - trotterized_time_evolution
+recommended_next_action: Run advanced code tests and update docs/advanced_code_status_table.md.
