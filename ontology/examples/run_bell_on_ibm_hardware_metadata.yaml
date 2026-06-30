@@ -1,0 +1,68 @@
+title: Run Bell State on IBM Quantum Hardware
+file: 05_ibm_hardware/run_bell_on_ibm_hardware.py
+level: intermediate
+code_type: python
+source_type: original_teaching_template
+source_url: ''
+license: repository_license
+concepts:
+  - cloud quantum computing
+  - Bell state
+  - entanglement
+  - measurement
+  - backend
+  - transpilation
+  - noisy hardware
+  - job execution
+gates:
+  - H
+  - CX
+  - measure
+qiskit_objects:
+  - QuantumCircuit
+  - QiskitRuntimeService
+  - SamplerV2
+  - transpile
+algorithm_family:
+  - hardware execution
+  - quantum primitives
+  - Bell-state experiment
+mathematics:
+  - probability
+  - binary outcomes
+  - statistics
+  - correlation
+physics:
+  - entanglement
+  - decoherence
+  - measurement noise
+  - real-device errors
+application_area:
+  - quantum hardware training
+  - quantum workforce development
+  - experimental quantum information
+  - STEM education
+prerequisites:
+  - qgss_env setup
+  - IBM Quantum account
+  - API-key safety
+  - Bell-state circuit
+  - Sampler basics
+expected_output: Hardware counts dominated by 00 and 11, with possible noisy 01 and 10 outcomes.
+safe_modifications:
+  - change number of shots
+  - compare simulator and hardware results
+  - record backend and job ID
+  - run at different times and compare noise
+unsafe_modifications:
+  - commit a real IBM API key
+  - publish screenshots showing a token
+  - assume noisy outcomes mean the code failed
+  - ignore backend and transpilation details
+student_questions:
+  - What is the difference between simulator counts and hardware counts?
+  - Why do 01 and 10 appear on real hardware?
+  - What is a backend?
+  - Why is transpilation needed?
+  - Why must the API key remain private?
+hardware_readiness: real_hardware_with_credentials
