@@ -1,0 +1,3 @@
+title,file,level,concepts,algorithm_family,application_area,status
+Sampler and StatevectorSampler Primitives,03_primitives/statevector_sampler_current_version.py,intermediate,"sampler; measurement; shots; counts; bell_state",primitives,"quantum simulation; hardware comparison; STEM education",tested_passed
+Estimator ZZ Expectation,03_primitives/estimator_zz_expectation.py,intermediate,"estimator; observable; ZZ; expectation_value",primitives,"quantum simulation; VQE preparation; many-body correlations",tested_passed
