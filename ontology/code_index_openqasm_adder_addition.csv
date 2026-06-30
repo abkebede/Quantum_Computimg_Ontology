@@ -1,0 +1,2 @@
+title,file,level,code_type,concepts,algorithm_family,application_area,status
+Cuccaro Ripple-Carry Adder,06_openqasm_examples/cuccaro_ripple_carry_adder.qasm,advanced_beginner_to_advanced,openqasm3,"reversible computation; binary arithmetic; uncomputation","quantum arithmetic; reversible arithmetic","cryptography-related algorithms; phase estimation support; fault-tolerant design",source_reviewed_not_executed
