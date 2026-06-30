@@ -1,0 +1,2 @@
+title,file,level,code_type,concepts,application_area
+"Run Bell State on IBM Quantum Hardware","05_ibm_hardware/run_bell_on_ibm_hardware.py","intermediate","python","Bell state; hardware backend; SamplerV2; transpilation; noisy counts","quantum hardware training; STEM education; experimental quantum information"
