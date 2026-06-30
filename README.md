@@ -91,7 +91,7 @@ docs/github\_upload\_and\_jupyter\_notebooks.md
 
 The Step 14 documentation records the tested workflow, vocabulary, and how the examples fit into the larger structure of quantum computing:
 
-```text
+```
 - \[Step 14 Beginner Documentation, Vocabulary, and Test Report](docs/step14\_beginner\_documentation\_vocabulary\_and\_test\_report.md)
 
 \- \[Vocabulary and Abbreviations](docs/vocabulary\_and\_abbreviations.md)
