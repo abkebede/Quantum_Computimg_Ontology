@@ -1,0 +1,8 @@
+title,file,level,code_type,status,concepts,application_area
+Bit-flip repetition code,12_advanced_codes/error_correction/bit_flip_repetition_code.py,advanced,python,template,error correction; logical encoding; bit flip,fault tolerance; hardware reliability
+Shor period-finding concept,12_advanced_codes/cryptography/shor_period_finding_concept.py,advanced,python,concept template,period finding; QFT; factoring,cybersecurity; post-quantum transition
+HHL linear-system concept,12_advanced_codes/linear_algebra/hhl_linear_system_concept.py,advanced,python,concept template,linear systems; eigenvalues; phase estimation,mathematical physics; linear algebra
+Trotterized Ising time evolution,12_advanced_codes/quantum_simulation/trotterized_ising_time_evolution.py,advanced,python,template,Hamiltonian simulation; Trotterization,physics simulation; materials
+QAOA penalty Hamiltonian template,12_advanced_codes/optimization/qaoa_penalty_hamiltonian_template.py,advanced,python,template,Hamiltonians; penalty functions,optimization; resource allocation
+Amplitude estimation application template,12_advanced_codes/monte_carlo_sampling/amplitude_estimation_application_template.py,advanced,python,concept template,amplitude estimation; Monte Carlo,risk; uncertainty; sampling
+Simulator noise study template,12_advanced_codes/hardware_noise/simulator_noise_study_template.py,advanced,python,template,noise; hardware comparison,hardware benchmarking; error analysis
