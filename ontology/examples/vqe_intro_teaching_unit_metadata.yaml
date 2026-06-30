@@ -1,0 +1,69 @@
+title: VQE Intro Teaching Unit
+file: 07_algorithms_intro/vqe_intro.ipynb
+explanation: 09_code_explanations/intermediate/vqe_intro_explanation.md
+application_note: 10_application_notes/advanced/vqe_intro_application_note.md
+level: intermediate
+code_type: jupyter_notebook
+source_type: original_teaching_example
+source_url: null
+license: repository_license
+concepts:
+  - ansatz
+  - Hamiltonian
+  - expectation_value
+  - variational_method
+  - energy_minimization
+  - hybrid_quantum_classical_algorithm
+gates:
+  - Ry
+  - CX
+qiskit_objects:
+  - SparsePauliOp
+  - StatevectorEstimator
+  - RealAmplitudes
+algorithm_family:
+  - VQE
+  - variational_quantum_algorithms
+mathematics:
+  - eigenvalue_problem
+  - expectation_value
+  - optimization
+  - linear_algebra
+physics_structure:
+  - Hamiltonian
+  - ground_state_energy
+  - two_qubit_model
+application_area:
+  - quantum_chemistry
+  - materials_modeling
+  - energy_materials
+  - computational_physics
+  - environmental_technology
+prerequisites:
+  - Python basics
+  - Qiskit circuit basics
+  - Bell state correlation
+  - Estimator expectation values
+  - parameterized circuits
+expected_output:
+  - minimum_energy_estimate_near_minus_1_857
+safe_modifications:
+  - change_initial_parameter_values
+  - change_optimizer_iterations
+  - change_ansatz_repetitions
+  - change_small_test_coefficients
+unsafe_modifications:
+  - change_number_of_qubits_without_updating_Hamiltonian
+  - use_wrong_length_Pauli_strings
+  - mix_measured_circuits_with_estimator_workflow
+  - change_estimator_input_format_without_understanding
+student_questions:
+  - What is a Hamiltonian?
+  - What is an ansatz?
+  - Why does VQE use a classical optimizer?
+  - What does the minimum energy represent?
+  - How does this connect to chemistry and materials problems?
+hardware_readiness: simulator_first
+status: tested_passed_with_deprecation_warning
+known_warnings:
+  - RealAmplitudes deprecation warning in current Qiskit; update syntax later.
