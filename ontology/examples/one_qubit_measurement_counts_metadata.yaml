@@ -1,0 +1,62 @@
+title: One-Qubit X Gate and Measurement Counts
+files:
+  - 01_basic_circuits/one_qubit_x_gate.py
+  - 01_basic_circuits/measurement_counts.py
+level: beginner
+code_type:
+  - python
+  - qiskit
+source_type: original teaching example
+license: repository license
+concepts:
+  - qubit
+  - classical bit
+  - measurement
+  - shots
+  - counts
+  - deterministic outcome
+  - sampling
+physical_meaning:
+  - quantum state preparation
+  - measurement as classical readout
+  - repeated experimental trials
+gates:
+  - X
+  - measure
+qiskit_objects:
+  - QuantumCircuit
+  - StatevectorSampler
+algorithm_family:
+  - circuit basics
+  - measurement basics
+mathematics:
+  - binary states
+  - probability
+  - frequency counts
+application_area:
+  - quantum measurement
+  - quantum random sampling foundation
+  - hardware readout foundation
+  - STEM probability education
+prerequisites:
+  - basic Python execution
+  - understanding of bits 0 and 1
+  - ability to run a .py file
+expected_output:
+  - Deterministic X-gate measurement should return mostly or entirely '1'.
+  - No-gate measurement should return mostly or entirely '0'.
+safe_modifications:
+  - remove the X gate
+  - add a second X gate
+  - change the number of shots
+  - compare deterministic X with probabilistic H
+unsafe_modifications:
+  - use qubit index 1 in a one-qubit circuit
+  - measure into a classical bit that does not exist
+  - assume all quantum outputs are deterministic
+student_questions:
+  - What does a shot mean?
+  - Why does X change the measured result from 0 to 1?
+  - What is the difference between a qubit and a classical bit?
+  - Why do later quantum algorithms need many measurements?
+hardware_readiness: simulator-first; useful for later hardware readout comparison
