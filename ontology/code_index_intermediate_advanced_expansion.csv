@@ -1,0 +1,13 @@
+title,file,level,concept,application_area,status
+Simple QAOA MaxCut,07_algorithms_intro/qaoa_maxcut_intro.py,intermediate,QAOA optimization,optimization,new
+Noisy Bell Comparison,03_primitives/noisy_simulator_bell_comparison.py,intermediate,noise simulation,hardware realism,new
+IBM Hardware Comparison Template,05_ibm_hardware/simulator_vs_hardware_bell_comparison_template.py,intermediate,hardware execution,IBM Quantum,new
+Phase Estimation Intro,07_algorithms_intro/phase_estimation_intro.py,advanced beginner,phase estimation,eigenvalue and phase problems,new
+Amplitude Estimation Intro,07_algorithms_intro/amplitude_estimation_intro.py,intermediate,amplitude estimation,sampling and probability,new
+H2 Hamiltonian VQE Grid Search,12_advanced_codes/chemistry/h2_hamiltonian_vqe_grid_search.py,advanced,VQE chemistry,quantum chemistry,new
+Transverse-Field Ising Chain,12_advanced_codes/materials/transverse_field_ising_chain.py,advanced,spin chain,materials physics,new
+Heisenberg Spin Chain,12_advanced_codes/materials/heisenberg_spin_chain_hamiltonian.py,advanced,spin chain,materials physics,new
+Simplified Hubbard Model,12_advanced_codes/materials/hubbard_model_two_site_simplified.py,advanced,Hubbard model,correlated materials,new
+Quantum Kernel Intro,12_advanced_codes/qml/quantum_kernel_intro.py,advanced beginner,quantum kernel,quantum machine learning,new
+Readout Mitigation Intro,12_advanced_codes/error_mitigation/readout_mitigation_intro.py,advanced beginner,error mitigation,hardware realism,new
+OpenQASM Runner Notes,06_openqasm_examples/openqasm3_runner_notes.py,advanced,OpenQASM 3,reversible arithmetic,new
