@@ -17,17 +17,21 @@ This repository is designed for faculty and student training. The method is simp
 
 ```text
 qc-code-study-library/
-├── setup_guides/              Environment, Jupyter, and IBM Quantum setup
-├── 00_environment_test/        Verify Python, Qiskit, and kernel setup
-├── 01_basic_circuits/          One-qubit and measurement examples
-├── 02_bell_states/             Two-qubit entanglement examples
-├── 03_primitives/              Sampler and Estimator examples
-├── 04_parameterized_circuits/  Parameterized ansatz circuits
-├── 05_ibm_hardware/            IBM Quantum hardware templates
-├── 06_openqasm_examples/       OpenQASM programs
-├── 07_algorithms_intro/        Grover, QFT, and VQE introduction
-├── docs/                       Study method and faculty notes
-└── evidence/                   Screenshots and run logs
+├── setup_guides/                   Environment, Jupyter, and IBM Quantum setup
+├── 00_environment_test/             Verify Python, Qiskit, and kernel setup
+├── 01_basic_circuits/               One-qubit and measurement examples
+├── 02_bell_states/                  Two-qubit entanglement examples
+├── 03_primitives/                   Sampler and Estimator examples
+├── 04_parameterized_circuits/       Parameterized ansatz circuits
+├── 05_ibm_hardware/                 IBM Quantum hardware templates
+├── 06_openqasm_examples/            OpenQASM programs
+├── 07_algorithms_intro/             Grover, QFT, and VQE introduction
+├── 08_applications_by_problem_type/ Classical-to-quantum application mapping
+├── ontology/                        Code ontology, metadata schema, and indexes
+├── docs/                            Study method, vocabulary, test reports, and faculty notes
+├── evidence/                        Screenshots and run logs
+├── .github/                         Issue templates for contributors
+└── .devcontainer/                   GitHub Codespaces setup
 ```
 
 ## Important Safety Rule
@@ -81,6 +85,19 @@ For details, see:
 docs/github_upload_and_jupyter_notebooks.md
 ```
 
+
+## Beginner Documentation and Test Report
+
+The Step 14 documentation records the tested workflow, vocabulary, and how the examples fit into the larger structure of quantum computing:
+
+```text
+docs/step14_beginner_documentation_vocabulary_and_test_report.md
+docs/vocabulary_and_abbreviations.md
+docs/repository_test_report.md
+docs/how_examples_fit_in_quantum_computing.md
+```
+
+These files are intended for beginners and novice users who need more than code. They explain the environment setup, terminology, tested examples, warnings, and application context.
 
 ## Quantum Computing Code Ontology
 
