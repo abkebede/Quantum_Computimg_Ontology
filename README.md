@@ -3,7 +3,6 @@
 **Author:** Abebe Kebede  
 **Purpose:** A basic-to-advanced code-study library for learning quantum computing with Python, Qiskit, Jupyter Notebook, OpenQASM, and IBM Quantum hardware.
 
-
 **Call for Contribution and Participation:** [Start here for contributors](docs/contributor_start_here.md)
 
 This repository is designed for faculty and student training. The method is simple:
@@ -30,6 +29,8 @@ qc-code-study-library/
 ├── 06_openqasm_examples/            OpenQASM programs
 ├── 07_algorithms_intro/             Grover, QFT, and VQE introduction
 ├── 08_applications_by_problem_type/ Classical-to-quantum application mapping
+├── 09_code_explanations/            Line-by-line teaching units
+├── 10_application_notes/            Application notes by level and problem type
 ├── ontology/                        Code ontology, metadata schema, and indexes
 ├── docs/                            Study method, vocabulary, test reports, and faculty notes
 ├── evidence/                        Screenshots and run logs
@@ -55,6 +56,16 @@ Beginners should read the Step 14 documentation before running the advanced exam
 8. `05_ibm_hardware/run_bell_on_ibm_hardware.py`
 9. `06_openqasm_examples/cuccaro_ripple_carry_adder.qasm`
 10. `07_algorithms_intro/grover_intro.py`, `qft_intro.py`, and `vqe_intro.ipynb`
+
+## First Complete Beginner Teaching Unit
+
+The first complete teaching unit is:
+
+- [Hadamard Superposition — Complete Beginner Teaching Unit](09_code_explanations/beginner/hadamard_superposition_explanation.md)
+- [Hadamard Superposition Application Note](10_application_notes/beginner/hadamard_superposition_application_note.md)
+- [Hadamard Superposition Metadata Card](ontology/examples/hadamard_superposition_metadata.yaml)
+
+This module shows the standard format for future code entries: code, line-by-line explanation, syntax, quantum meaning, safe modifications, application note, and ontology metadata.
 
 ## How to Run a Python File
 
