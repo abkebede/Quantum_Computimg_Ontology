@@ -1,0 +1,54 @@
+title: Quantum Computing Applications Map
+file: 09_code_explanations/beginner/quantum_computing_applications_map_explanation.md
+level: beginner
+code_type: markdown_explanation
+source_type: original
+source_url: ""
+license: repository_license
+concepts:
+  - quantum_computing_applications
+  - problem_to_algorithm_mapping
+  - beginner_learning_path
+  - code_to_concept_to_application
+gates: []
+qiskit_objects: []
+algorithm_family:
+  - circuit_basics
+  - primitives
+  - variational_algorithms
+  - search_algorithms
+  - fourier_algorithms
+  - quantum_simulation
+mathematics:
+  - probability
+  - linear_algebra
+  - eigenvalues
+  - optimization
+  - Fourier_analysis
+  - Hamiltonians
+application_area:
+  - STEM_education
+  - STEAM_education
+  - chemistry
+  - materials_science
+  - environmental_energy
+  - optimization
+  - cybersecurity
+  - machine_learning
+prerequisites:
+  - basic_repository_orientation
+  - beginner_vocabulary
+expected_output: A conceptual map connecting repository examples to quantum computing applications.
+safe_modifications:
+  - add_new_problem_types
+  - add_new_application_areas
+  - add_links_to_repository_codes
+unsafe_modifications:
+  - claiming_quantum_advantage_without_evidence
+  - adding_external_claims_without_source_or_context
+student_questions:
+  - Which repository example connects most directly to materials science?
+  - Why is VQE connected to chemistry and materials?
+  - Why does a Hadamard gate matter for later algorithms?
+  - What kinds of problems may not need quantum computing?
+hardware_readiness: not_applicable
