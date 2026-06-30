@@ -1,21 +1,54 @@
-title: "One-Qubit Hadamard Superposition"
-file: "01_basic_circuits/hadamard_superposition.py"
-level: "beginner"
-code_type: "python"
-source_type: "original"
-source_url: ""
-license: "MIT"
-status: "runs"
-concepts: ["qubit", "superposition", "measurement", "sampling"]
-gates: ["H", "measure"]
-qiskit_objects: ["QuantumCircuit", "StatevectorSampler"]
-algorithm_family: ["circuit basics"]
-mathematics: ["probability", "binary outcomes"]
-application_area: ["quantum random sampling", "measurement statistics"]
-prerequisites: ["Python basics", "qubit notation"]
-expected_output: "Approximately equal counts for 0 and 1."
-safe_modifications: ["change number of shots", "remove H gate", "replace H with X"]
-unsafe_modifications: ["use qubit index 1 in a one-qubit circuit", "remove classical storage if measuring"]
-line_by_line_questions: ["What does qc.h(0) do?", "Why are counts not exactly equal?"]
-student_questions: ["What makes a quantum measurement probabilistic?"]
-notes: "A first code for superposition and measurement."
+title: Hadamard Superposition
+file: 01_basic_circuits/hadamard_superposition.py
+level: beginner
+code_type: python
+source_type: original
+source_url: null
+license: repository_license
+concepts:
+  - qubit
+  - superposition
+  - measurement
+  - probability
+  - shots
+  - counts
+gates:
+  - H
+  - measure
+qiskit_objects:
+  - QuantumCircuit
+  - StatevectorSampler
+algorithm_family:
+  - circuit_basics
+  - quantum_sampling
+mathematics:
+  - probability_distribution
+  - binary_outcomes
+  - normalization
+application_area:
+  - quantum_random_sampling
+  - measurement_statistics
+  - beginner_quantum_state_preparation
+prerequisites:
+  - basic_python_imports
+  - variables_and_function_calls
+  - qubit_indexing
+  - classical_bit_indexing
+expected_output: Approximately equal counts for 0 and 1 when using 1000 shots.
+safe_modifications:
+  - change_number_of_shots
+  - remove_h_gate
+  - replace_h_with_x_gate
+unsafe_modifications:
+  - use_qubit_index_1_in_a_one_qubit_circuit
+  - remove_classical_bit_and_keep_measurement
+  - confuse_terminal_commands_with_notebook_python_cells
+student_questions:
+  - What does the Hadamard gate do to the initial state |0>?
+  - Why are the counts not exactly equal every time?
+  - What is the difference between probability and count?
+  - What happens if the H gate is removed?
+  - What happens if the H gate is replaced by X?
+hardware_readiness: simulator_first
+teaching_unit: 09_code_explanations/beginner/hadamard_superposition_explanation.md
+application_note: 10_application_notes/beginner/hadamard_superposition_application_note.md
