@@ -1,15 +1,14 @@
 title,file,level,code_type,concepts,algorithm_family,application_area,status
-Environment Check,00_environment_test/environment_check.py,beginner,python,environment; qiskit import,setup,training infrastructure,runs
-One-Qubit X Gate,01_basic_circuits/one_qubit_x_gate.py,beginner,python,qubit; X gate; measurement,circuit basics,quantum measurement,runs
-Hadamard Superposition,01_basic_circuits/hadamard_superposition.py,beginner,python,superposition; measurement; sampling,circuit basics,random sampling,runs
-Bell State Sampler,02_bell_states/bell_state_sampler.py,beginner,python,entanglement; measurement counts,Bell states,quantum correlations,runs
-Sampler Examples,03_primitives/sampler_examples.py,intermediate,python,primitive; sampling,primitives,probability distribution,runs
-Estimator ZZ Expectation,03_primitives/estimator_zz_expectation.py,intermediate,python,observable; expectation value; Hamiltonian,primitives,physics observables,runs
-RealAmplitudes Ansatz,04_parameterized_circuits/real_amplitudes_ansatz.py,intermediate,python,parameterized circuit; ansatz,variational circuits,optimization; VQE preparation,runs
-IBM Hardware Bell Run,05_ibm_hardware/run_bell_on_ibm_hardware.py,intermediate,python,hardware backend; noise; transpilation,runtime hardware,hardware access,template
-Cuccaro Ripple-Carry Adder,06_openqasm_examples/cuccaro_ripple_carry_adder.qasm,advanced,qasm,reversible arithmetic; CCX,OpenQASM reversible computation,binary arithmetic,source
-Grover Introduction,07_algorithms_intro/grover_intro.py,advanced,python,oracle; amplitude amplification,Grover search,search problems,runs
-QFT Introduction,07_algorithms_intro/qft_intro.py,advanced,python,Fourier transform; phase,QFT,Fourier analysis,runs
-VQE Introduction,07_algorithms_intro/vqe_intro.ipynb,advanced,notebook,Hamiltonian; ansatz; optimizer,VQE,chemistry; eigenvalue problem,runs
-"Bell State and ZZ Estimator","02_bell_states/bell_state_sampler.py;03_primitives/estimator_zz_expectation.py","beginner_to_intermediate","entanglement;correlation;expectation_value","circuit_basics;primitives;observable_estimation","quantum_information;quantum_simulation_foundation"
-VQE Intro Teaching Unit,07_algorithms_intro/vqe_intro.ipynb,intermediate,"Hamiltonian; ansatz; expectation value; optimization",VQE,"quantum chemistry; materials; energy",tested_passed_with_warning
+Environment Setup and Jupyter Workflow,00_environment_test/environment_check.py,beginner,python,"environment; virtual environment; kernel; Jupyter",setup workflow,"education; reproducibility",created
+One-Qubit Measurement and Counts,01_basic_circuits/one_qubit_x_gate.py,beginner,python,"qubit; X gate; measurement; counts",circuit basics,"measurement; sampling; beginner training",created
+Hadamard Superposition,01_basic_circuits/hadamard_superposition.py,beginner,python,"superposition; H gate; measurement; probability",circuit basics,"quantum random sampling; probability",created
+Bell State and ZZ Estimator,"02_bell_states/bell_state_sampler.py; 03_primitives/estimator_zz_expectation.py",intermediate,python,"entanglement; Bell state; ZZ observable; expectation value",primitives,"correlations; Hamiltonians; many-body physics",created
+Sampler and Estimator Primitives,03_primitives/,intermediate,python,"Sampler; StatevectorSampler; Estimator; StatevectorEstimator",primitives,"measurement statistics; observable estimation",created
+Parameterized Ansatz,04_parameterized_circuits/real_amplitudes_ansatz.py,intermediate,python,"parameters; ansatz; Ry gates; entanglement",variational circuits,"optimization; VQE; QAOA; QML",created
+IBM Quantum Hardware Bell State,05_ibm_hardware/run_bell_on_ibm_hardware.py,intermediate,python,"runtime service; backend; transpilation; hardware noise",cloud quantum hardware,"hardware access; experimental QC",created
+OpenQASM Cuccaro Ripple-Carry Adder,06_openqasm_examples/cuccaro_ripple_carry_adder.qasm,advanced,openqasm,"reversible logic; majority; unmajority; Toffoli",quantum arithmetic,"arithmetic circuits; fault-tolerant logic",source_review_created
+Grover Search Intro,07_algorithms_intro/grover_intro.py,intermediate,python,"oracle; amplitude amplification; marked state",Grover search,"search; optimization; constraint satisfaction",created
+QFT Intro,07_algorithms_intro/qft_intro.py,intermediate,python,"Fourier transform; phase; controlled phase gates",QFT,"phase estimation; period finding; spectral methods",created
+VQE Intro,07_algorithms_intro/vqe_intro.ipynb,intermediate,notebook,"Hamiltonian; ansatz; estimator; optimizer",VQE,"quantum chemistry; materials; energy problems",created
+Applications Map,docs/quantum_computing_applications_map.md,beginner,markdown,"problem type; application; algorithm mapping",application mapping,"STEM; STEAM; society; environment",created
+Ontology and Contribution Workflow,ontology/,beginner,markdown,"metadata; ontology; contribution workflow",knowledge organization,"open education; repository development",created
