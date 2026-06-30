@@ -1,0 +1,59 @@
+title: RealAmplitudes Parameterized Ansatz
+file: 04_parameterized_circuits/real_amplitudes_ansatz.py
+level: intermediate
+code_type: python
+source_type: original_teaching_example
+source_url: ""
+license: repository_license
+concepts:
+  - parameterized_circuit
+  - ansatz
+  - rotation_gate
+  - entanglement
+  - hybrid_quantum_classical_algorithm
+gates:
+  - Ry
+  - CX
+qiskit_objects:
+  - RealAmplitudes
+  - QuantumCircuit
+  - assign_parameters
+algorithm_family:
+  - variational_quantum_algorithms
+  - ansatz_construction
+mathematics:
+  - parameterized_functions
+  - optimization_variables
+  - trigonometric_rotations
+physics_structure:
+  - trial_quantum_state
+  - tunable_wavefunction
+application_area:
+  - quantum_chemistry
+  - materials_modeling
+  - optimization
+  - quantum_machine_learning
+prerequisites:
+  - basic_quantum_gates
+  - Bell_states
+  - Python_lists
+  - Qiskit_circuit_objects
+expected_output: A decomposed two-qubit circuit containing Ry rotations and an entangling gate.
+safe_modifications:
+  - change_parameter_values
+  - change_reps
+  - change_num_qubits
+  - change_entanglement_pattern
+unsafe_modifications:
+  - assign_wrong_number_of_parameters
+  - assume_parameter_order_without_inspection
+  - use_deep_circuits_on_hardware_without_noise_awareness
+student_questions:
+  - What is an ansatz?
+  - Why do variational algorithms use parameters?
+  - What does assign_parameters do?
+  - What happens when the number of repetitions increases?
+hardware_readiness: simulator_first
+status: tested_with_warning
+warnings:
+  - RealAmplitudes class is deprecated in Qiskit 2.1 and should eventually be updated.
