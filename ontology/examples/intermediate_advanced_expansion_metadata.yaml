@@ -1,0 +1,49 @@
+title: Intermediate and Advanced Code Expansion
+level: intermediate_to_advanced
+code_type: python_qiskit_collection
+source_type: original_teaching_examples
+concepts:
+  - QAOA
+  - MaxCut
+  - noisy simulation
+  - IBM hardware comparison
+  - phase estimation
+  - amplitude estimation
+  - quantum chemistry Hamiltonian
+  - materials Hamiltonian
+  - spin chain
+  - Hubbard model
+  - quantum kernel
+  - error mitigation
+qiskit_objects:
+  - QuantumCircuit
+  - Statevector
+  - SparsePauliOp
+  - StatevectorSampler
+  - AerSimulator
+algorithm_family:
+  - variational algorithms
+  - quantum optimization
+  - quantum simulation
+  - phase estimation
+  - quantum machine learning
+application_area:
+  - optimization
+  - chemistry
+  - materials physics
+  - cybersecurity foundations
+  - environmental and energy systems
+  - computational physics
+safe_modifications:
+  - change small graph size in QAOA examples
+  - change Hamiltonian coefficients
+  - change number of shots
+  - compare ideal and noisy counts
+unsafe_modifications:
+  - uploading IBM API keys
+  - assuming advanced examples are hardware-ready without testing
+  - changing Pauli string length without matching qubit count
+student_questions:
+  - What problem type does this code represent?
+  - What is classical about the problem and what is quantum about the method?
+  - Which part of the code defines the Hamiltonian, oracle, ansatz, or measurement?
