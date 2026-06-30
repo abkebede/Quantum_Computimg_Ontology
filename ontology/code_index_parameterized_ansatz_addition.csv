@@ -1,0 +1,2 @@
+title,file,level,concepts,algorithm_family,application_area,status
+RealAmplitudes Parameterized Ansatz,04_parameterized_circuits/real_amplitudes_ansatz.py,intermediate,"parameterized circuit; ansatz; rotation gates; entanglement","variational quantum algorithms","chemistry; materials; optimization; quantum machine learning",tested_with_deprecation_warning
