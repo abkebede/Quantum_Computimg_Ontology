@@ -1,0 +1,27 @@
+title: Advanced Quantum Computing Completeness Expansion
+level: advanced
+code_type: mixed
+source_type: original teaching templates
+status: partial_update
+concepts:
+  - quantum algorithms
+  - Hamiltonian simulation
+  - optimization
+  - quantum chemistry
+  - materials physics
+  - error correction
+  - cryptography
+  - quantum machine learning
+  - amplitude estimation
+  - phase estimation
+application_area:
+  - STEM education
+  - mathematical physics
+  - computational physics
+  - chemistry
+  - materials science
+  - energy and environment
+  - cybersecurity
+  - optimization
+  - machine learning
+purpose: Ensure the advanced scope of the repository is broad, explicit, and not limited to only one or two advanced examples.
