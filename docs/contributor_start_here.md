@@ -1,17 +1,28 @@
-I am inviting students and colleagues to join a collaborative effort to build a Quantum Computing Code Study Library from the ground up.
+# Contributor Start Here
 
-The goal is to create a beginner-friendly, faculty- and student-centered resource for learning quantum computing through working code, line-by-line explanations, safe code modifications, tested examples, and application notes.
+Welcome to the Quantum Computing Code Study Library.
 
-The repository includes Python/Qiskit examples, Jupyter notebooks, OpenQASM examples, IBM Quantum hardware templates, beginner documentation, and a developing ontology that organizes codes by concept, level, gate set, algorithm family, mathematical structure, and application area.
+This project invites students, faculty, and contributors to help build a beginner-friendly quantum computing resource from the ground up.
 
-Contributors can help by:
-- testing codes
-- adding beginner explanations
-- writing metadata cards
-- connecting codes to physics, mathematics, computing, chemistry, materials, optimization, and other applications
-- improving documentation
-- suggesting new examples from basic to advanced levels
+## How to contribute
 
-The long-term goal is to build a shared quantum computing knowledge and application resource for beginners, students, faculty, and novice researchers.
+1. Test an existing code file.
+2. Record whether it runs.
+3. Add a line-by-line explanation.
+4. Add a metadata card using the ontology schema.
+5. Add an application note explaining where the method fits in quantum computing.
+6. Do not upload private API keys, tokens, passwords, or screenshots that reveal credentials.
 
-https://github.com/abkebede/Quantum_Computimg_Ontology
+## Good first contribution
+
+Start with a beginner file such as:
+
+```text
+01_basic_circuits/hadamard_superposition.py
+```
+
+Read the companion teaching unit:
+
+```text
+09_code_explanations/beginner/hadamard_superposition_explanation.md
+```
