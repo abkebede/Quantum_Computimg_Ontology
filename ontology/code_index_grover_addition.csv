@@ -1,0 +1,2 @@
+title,file,level,code_type,concepts,algorithm_family,application_area,status
+Grover Intro,07_algorithms_intro/grover_intro.py,intermediate,python_qiskit,"superposition; oracle; amplitude_amplification; measurement_counts",Grover_search,"search; optimization; constraint_satisfaction",tested_passed
