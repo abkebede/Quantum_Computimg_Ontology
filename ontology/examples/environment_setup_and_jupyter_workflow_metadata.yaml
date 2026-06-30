@@ -1,0 +1,51 @@
+title: Environment Setup and Jupyter Workflow
+file: 09_code_explanations/beginner/environment_setup_and_jupyter_workflow_explanation.md
+level: beginner
+code_type: markdown_explanation
+source_type: original
+source_url: ""
+license: repository_license
+concepts:
+  - reproducible environment
+  - Python virtual environment
+  - Jupyter Notebook
+  - terminal commands
+  - Python executable verification
+gates: []
+qiskit_objects:
+  - qiskit
+  - qiskit-aer
+  - qiskit-ibm-runtime
+  - qiskit-algorithms
+  - ipykernel
+algorithm_family:
+  - environment setup
+  - workflow preparation
+mathematics:
+  - reproducibility
+  - computational workflow
+application_area:
+  - quantum computing education
+  - scientific computing
+  - faculty training
+  - student onboarding
+prerequisites:
+  - basic Windows command prompt use
+  - ability to install Python packages
+expected_output:
+  - C:\qgss_env\Scripts\python.exe
+  - Qiskit package versions
+  - Jupyter Notebook browser GUI
+safe_modifications:
+  - change local project folder path
+  - run verification command
+  - choose correct Jupyter kernel
+unsafe_modifications:
+  - uploading real IBM API keys
+  - changing environments without verification
+  - confusing terminal commands with Python notebook cells
+student_questions:
+  - What is the difference between a terminal command and Python code?
+  - Why must the notebook kernel match qgss_env?
+  - Why is environment reproducibility important for quantum computing?
+hardware_readiness: setup_required
