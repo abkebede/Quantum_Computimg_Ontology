@@ -1,0 +1,61 @@
+title: QFT Intro
+file: 07_algorithms_intro/qft_intro.py
+level: intermediate
+code_type: python
+source_type: original_teaching_example
+source_url: null
+license: repository_license
+concepts:
+  - quantum_fourier_transform
+  - phase
+  - periodicity
+  - controlled_phase
+  - superposition
+gates:
+  - X
+  - H
+  - controlled_phase
+  - SWAP
+qiskit_objects:
+  - QuantumCircuit
+algorithm_family:
+  - quantum_fourier_transform
+  - phase_based_algorithms
+mathematics:
+  - discrete_fourier_transform
+  - complex_phase
+  - periodicity
+  - spectral_methods
+physics_structure:
+  - waves
+  - phases
+  - frequency_domain
+  - eigenvalue_phase_information
+application_area:
+  - phase_estimation
+  - period_finding
+  - quantum_simulation
+  - computational_physics
+  - cryptography_education
+prerequisites:
+  - qubits
+  - gates
+  - superposition
+  - complex_numbers
+  - basic_fourier_analysis
+expected_output: Three-qubit QFT circuit diagram prints successfully.
+safe_modifications:
+  - move_initial_x_gate
+  - prepare_different_basis_inputs
+  - compare_circuit_with_and_without_swaps
+unsafe_modifications:
+  - change_controlled_phase_angles_without_understanding_qft_structure
+  - remove_phase_gates_and_still_call_it_qft
+  - change_qubit_count_without_updating_qft_pattern
+student_questions:
+  - What does the QFT do to phase information?
+  - Why are controlled phase gates needed?
+  - Why does the QFT circuit end with swaps?
+  - How is QFT related to Fourier analysis in physics?
+hardware_readiness: simulator_first
+status: tested_passed
