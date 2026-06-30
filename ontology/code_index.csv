@@ -12,3 +12,4 @@ Grover Introduction,07_algorithms_intro/grover_intro.py,advanced,python,oracle; 
 QFT Introduction,07_algorithms_intro/qft_intro.py,advanced,python,Fourier transform; phase,QFT,Fourier analysis,runs
 VQE Introduction,07_algorithms_intro/vqe_intro.ipynb,advanced,notebook,Hamiltonian; ansatz; optimizer,VQE,chemistry; eigenvalue problem,runs
 "Bell State and ZZ Estimator","02_bell_states/bell_state_sampler.py;03_primitives/estimator_zz_expectation.py","beginner_to_intermediate","entanglement;correlation;expectation_value","circuit_basics;primitives;observable_estimation","quantum_information;quantum_simulation_foundation"
+VQE Intro Teaching Unit,07_algorithms_intro/vqe_intro.ipynb,intermediate,"Hamiltonian; ansatz; expectation value; optimization",VQE,"quantum chemistry; materials; energy",tested_passed_with_warning
