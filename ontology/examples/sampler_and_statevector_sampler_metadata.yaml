@@ -1,0 +1,69 @@
+title: Sampler and StatevectorSampler Primitives
+files:
+  - 03_primitives/statevector_sampler_current_version.py
+  - 03_primitives/sampler_examples.py
+  - 03_primitives/estimator_zz_expectation.py
+level: intermediate
+code_type: python_qiskit
+source_type: original_teaching_example
+source_url: null
+license: repository_license
+concepts:
+  - sampler
+  - statevector_sampler
+  - estimator
+  - measurement
+  - shots
+  - counts
+  - expectation_value
+  - bell_state
+  - correlation
+gates:
+  - H
+  - CX
+  - measure
+qiskit_objects:
+  - QuantumCircuit
+  - StatevectorSampler
+  - StatevectorEstimator
+  - SparsePauliOp
+algorithm_family:
+  - primitives
+  - circuit_execution
+  - expectation_value_estimation
+mathematics:
+  - probability_distribution
+  - sampling
+  - expectation_value
+  - binary_outcomes
+physics_structure:
+  - quantum_measurement
+  - two_qubit_correlation
+  - observable_measurement
+application_area:
+  - quantum_simulation
+  - optimization
+  - hardware_comparison
+  - STEM_education
+prerequisites:
+  - one_qubit_gates
+  - measurement_counts
+  - bell_state
+expected_output:
+  sampler: "Bell-state counts concentrated in 00 and 11"
+  estimator: "<ZZ> approximately +1 for ideal Bell state"
+safe_modifications:
+  - change_number_of_shots
+  - remove_cx_gate
+  - compare_sampler_and_estimator
+  - change_observable_from_ZZ_to_ZI_or_XX
+unsafe_modifications:
+  - use_qubit_indices_that_do_not_exist
+  - use_pauli_strings_with_wrong_number_of_qubits
+  - remove_classical_bits_while_measuring
+student_questions:
+  - What is the difference between counts and expectation values?
+  - Why does increasing shots reduce visible sampling fluctuations?
+  - Why does the Bell-state sampler return only 00 and 11 in an ideal simulation?
+  - How does an Estimator become useful for VQE?
+hardware_readiness: simulator_first_then_hardware_comparison
