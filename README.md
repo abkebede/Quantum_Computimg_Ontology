@@ -3,6 +3,9 @@
 **Author:** Abebe Kebede  
 **Purpose:** A basic-to-advanced code-study library for learning quantum computing with Python, Qiskit, Jupyter Notebook, OpenQASM, and IBM Quantum hardware.
 
+
+**Call for Contribution and Participation:** [Start here for contributors](docs/contributor_start_here.md)
+
 This repository is designed for faculty and student training. The method is simple:
 
 1. Run working code exactly as written.
