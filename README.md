@@ -57,15 +57,23 @@ Beginners should read the Step 14 documentation before running the advanced exam
 9. `06_openqasm_examples/cuccaro_ripple_carry_adder.qasm`
 10. `07_algorithms_intro/grover_intro.py`, `qft_intro.py`, and `vqe_intro.ipynb`
 
-## First Complete Beginner Teaching Unit
+## Complete Teaching Units
 
-The first complete teaching unit is:
+The repository now includes complete teaching units that connect code, line-by-line explanation, application context, and ontology metadata.
+
+### Beginner Unit 1 — Hadamard Superposition
 
 - [Hadamard Superposition — Complete Beginner Teaching Unit](09_code_explanations/beginner/hadamard_superposition_explanation.md)
 - [Hadamard Superposition Application Note](10_application_notes/beginner/hadamard_superposition_application_note.md)
 - [Hadamard Superposition Metadata Card](ontology/examples/hadamard_superposition_metadata.yaml)
 
-This module shows the standard format for future code entries: code, line-by-line explanation, syntax, quantum meaning, safe modifications, application note, and ontology metadata.
+### Beginner-to-Intermediate Unit 2 — Bell State and ZZ Estimator
+
+- [Bell State and ZZ Estimator — Complete Teaching Unit](09_code_explanations/beginner/bell_state_and_zz_estimator_explanation.md)
+- [Bell State and ZZ Estimator Application Note](10_application_notes/intermediate/bell_state_and_zz_estimator_application_note.md)
+- [Bell State and ZZ Estimator Metadata Card](ontology/examples/bell_state_and_zz_estimator_metadata.yaml)
+
+These modules show the standard format for future code entries: code, line-by-line explanation, syntax, quantum meaning, safe modifications, application note, and ontology metadata.
 
 ## How to Run a Python File
 
