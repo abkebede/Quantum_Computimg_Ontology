@@ -1,0 +1,70 @@
+title: Bell State and ZZ Estimator
+files:
+  - 02_bell_states/bell_state_sampler.py
+  - 03_primitives/estimator_zz_expectation.py
+level: beginner_to_intermediate
+code_type:
+  - python
+  - qiskit
+source_type: original_teaching_example
+source_url: null
+license: repository_license
+concepts:
+  - qubit
+  - two_qubit_circuit
+  - superposition
+  - entanglement
+  - measurement
+  - correlation
+  - expectation_value
+gates:
+  - H
+  - CX
+  - measure
+qiskit_objects:
+  - QuantumCircuit
+  - StatevectorSampler
+  - StatevectorEstimator
+  - SparsePauliOp
+algorithm_family:
+  - circuit_basics
+  - primitives
+  - observable_estimation
+mathematics:
+  - probability
+  - binary_outcomes
+  - tensor_product_states
+  - expectation_values
+  - Pauli_operators
+physics_structure:
+  - Bell_state
+  - Z_basis_correlation
+  - two_qubit_observable
+application_area:
+  - quantum_information
+  - quantum_communication_foundations
+  - quantum_simulation_foundations
+  - materials_spin_models_foundation
+  - variational_algorithm_foundation
+prerequisites:
+  - Python_basics
+  - one_qubit_Hadamard_circuit
+  - measurement_counts
+expected_output:
+  sampler: "approximately half 00 and half 11"
+  estimator: "<ZZ> approximately +1"
+safe_modifications:
+  - change_number_of_shots
+  - remove_CX_gate_and_predict_counts
+  - change_ZZ_to_XX
+  - change_CX_control_target_and_predict_effect
+unsafe_modifications:
+  - use_qubit_index_outside_the_circuit
+  - use_three_qubit_observable_for_two_qubit_circuit
+  - remove_classical_bits_then_measure_into_missing_bits
+student_questions:
+  - Why does the Bell state produce only 00 and 11 in ideal simulation?
+  - What does the CX gate do after the Hadamard gate?
+  - What is the difference between Sampler output and Estimator output?
+  - Why is the ZZ expectation value +1 for this Bell state?
+hardware_readiness: simulator_first_then_hardware_comparison
