@@ -1,0 +1,68 @@
+title: Cuccaro Ripple-Carry Adder
+file: 06_openqasm_examples/cuccaro_ripple_carry_adder.qasm
+level: advanced_beginner_to_advanced
+code_type: openqasm3
+source_type: adapted_conceptual_teaching_example
+source_reference: Cuccaro et al., quant-ph/0410184
+concepts:
+  - reversible_computation
+  - binary_arithmetic
+  - carry_propagation
+  - uncomputation
+  - quantum_registers
+  - classical_measurement_registers
+gates:
+  - x
+  - cx
+  - ccx
+qiskit_or_language_objects:
+  - OPENQASM_3
+  - gate_definition
+  - qubit_register
+  - bit_register
+  - for_loop
+  - conditional_gate_application
+algorithm_family:
+  - reversible_arithmetic
+  - quantum_arithmetic
+  - algorithm_subroutine
+mathematics:
+  - binary_addition
+  - Boolean_logic
+  - reversible_logic
+physics_or_computing_structure:
+  - unitary_reversible_operations
+  - carry_chain
+application_area:
+  - quantum_arithmetic
+  - cryptography_related_algorithms
+  - phase_estimation_support
+  - fault_tolerant_algorithm_design
+expected_output:
+  input: a_in = 1, b_in = 15
+  decimal_sum: 16
+  binary_sum: '10000'
+  low_bits_in_b: '0000'
+  carry_out: '1'
+safe_modifications:
+  - change_a_in
+  - change_b_in
+  - compare_expected_binary_sum
+unsafe_modifications:
+  - modify_majority_gate_without_analysis
+  - modify_unmaj_gate_without_analysis
+  - change_carry_chain_without_understanding_reversibility
+prerequisites:
+  - binary_numbers
+  - basic_quantum_gates
+  - controlled_not_gate
+  - Toffoli_gate
+  - measurement
+hardware_readiness: source_reviewed_not_hardware_ready
+execution_status: source_reviewed_not_yet_executed_in_repository
+student_questions:
+  - Why does a four-bit plus four-bit addition need five output bits?
+  - What does the majority gate do?
+  - Why is uncomputation necessary?
+  - What changes when a_in and b_in are modified?
+  - Why is reversible arithmetic important in quantum algorithms?
