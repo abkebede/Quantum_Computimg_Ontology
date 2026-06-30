@@ -1,0 +1,2 @@
+title,file,level,code_type,algorithm_family,application_area,status
+QFT Intro,07_algorithms_intro/qft_intro.py,intermediate,python,quantum_fourier_transform,phase_estimation_and_periodicity,tested_passed
