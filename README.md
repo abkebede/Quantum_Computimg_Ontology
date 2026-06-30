@@ -107,6 +107,19 @@ For details, see:
 
 [GitHub Upload and Jupyter Notebooks](docs/github_upload_and_jupyter_notebooks.md)
 
+
+## Featured Teaching Units
+
+- [Hadamard Superposition Teaching Unit](09_code_explanations/beginner/hadamard_superposition_explanation.md)
+- [Bell State and ZZ Estimator Teaching Unit](09_code_explanations/beginner/bell_state_and_zz_estimator_explanation.md)
+- [VQE Intro Teaching Unit](09_code_explanations/intermediate/vqe_intro_explanation.md)
+
+Application notes:
+
+- [Hadamard Superposition Application Note](10_application_notes/beginner/hadamard_superposition_application_note.md)
+- [Bell State and ZZ Estimator Application Note](10_application_notes/intermediate/bell_state_and_zz_estimator_application_note.md)
+- [VQE for Chemistry, Materials, and Energy Problems](10_application_notes/advanced/vqe_intro_application_note.md)
+
 ## Beginner Documentation and Test Report
 
 The Step 14 documentation records the tested workflow, vocabulary, and how the examples fit into the larger structure of quantum computing:
