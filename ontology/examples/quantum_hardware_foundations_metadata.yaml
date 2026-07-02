@@ -1,0 +1,17 @@
+module: quantum_hardware_foundations
+type: documentation_and_visual_code_update
+status: partial_update
+main_folder: 14_quantum_hardware_foundations
+core_concepts:
+  - transistor_vs_qubit
+  - josephson_junction
+  - transmon_qubit
+  - microwave_control
+  - readout_resonator
+  - classical_quantum_hybrid_architecture
+  - hardware_to_gate_mapping
+student_outcomes:
+  - explain why a qubit is a physical device
+  - compare transistor logic and qubit control
+  - describe how superconducting qubits implement gates
+  - explain why classical electronics are required
