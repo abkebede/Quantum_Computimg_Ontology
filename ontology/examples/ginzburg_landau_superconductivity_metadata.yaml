@@ -1,0 +1,30 @@
+id: ginzburg_landau_superconductivity_classical_vs_qc
+project: qc-code-study-library
+level: advanced
+topic: superconductivity
+source_type: physics_theory_to_qc_module
+physics_concepts:
+  - Ginzburg-Landau free energy
+  - superconducting order parameter
+  - phase transition
+  - coherence length
+  - lattice Hamiltonian
+classical_methods:
+  - finite differences
+  - gradient descent
+  - NumPy array simulation
+quantum_computing_methods:
+  - SparsePauliOp Hamiltonian encoding
+  - statevector expectation value
+  - VQE-style grid search
+  - future QAOA or time evolution
+qiskit_objects:
+  - QuantumCircuit
+  - SparsePauliOp
+  - Statevector
+student_goals:
+  - compare traditional computation and Qiskit representation
+  - understand that Qiskit simulation is not automatically faster
+  - connect physical order parameters to qubit Hamiltonians
+copyright_status: original teaching code and notes
+public_github_status: candidate after review
